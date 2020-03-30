@@ -1,0 +1,23 @@
+计算def.txt的hash，不受filter的影响，这里的def.txt的内容应该是加密和签名之后的
+git hash-object def.txt --no-filters
+
+查看commit id为399db的文件目录
+git ls-tree -r 399db
+
+结果：
+100644 blob 6a7dbe0b88c2ed9c3425c2557a2e95578ce7b614	abc.txt
+100644 blob 21a93801b524e7245b3328c72aa4fd8b3dacccea	abc_temp.txt
+100644 blob f7e3532175e604114694ab2b1c9cb38ff64aaf16	def.txt
+100644 blob 084bd54f82ee14ae30bb9d2864dc8179466d2635	sss.txt
+100644 blob 62b248406944abf4b4c9c58b869e41b40e2af5e2	test/aaa.txt
+
+只显示文件名：
+git ls-tree -r --name-only 399db
+
+结果：
+abc.txt
+abc_temp.txt
+def.txt
+sss.txt
+test/aaa.txt
+

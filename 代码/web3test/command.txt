@@ -1,0 +1,3 @@
+geth --rpc --testnet --rpcport 8545 --ws --allow-insecure-unlock console 2>>geth.log
+tail -f geth.log
+personal.unlockAccount('0x58ba6ade1a167bfc1abba98bcaf685a43dee3ed4', 'password')

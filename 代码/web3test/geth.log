@@ -1,0 +1,41 @@
+WARN [01-02|14:39:28.679] Sanitizing cache to Go's GC limits       provided=1024 updated=992
+INFO [01-02|14:39:28.680] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [01-02|14:39:28.680] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [01-02|14:39:28.683] Starting peer-to-peer node               instance=Geth/v1.9.8-stable-d62e9b28/linux-amd64/go1.13.4
+INFO [01-02|14:39:28.683] Allocated trie memory caches             clean=248.00MiB dirty=248.00MiB
+INFO [01-02|14:39:28.684] Allocated cache and file handles         database=/home/xx/.ethereum/testnet/geth/chaindata cache=496.00MiB handles=524288
+INFO [01-02|14:39:29.192] Opened ancient database                  database=/home/xx/.ethereum/testnet/geth/chaindata/ancient
+INFO [01-02|14:39:29.372] Persisted trie from memory database      nodes=355 size=50.67KiB time=776.567µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [01-02|14:39:29.373] Initialised chain configuration          config="{ChainID: 3 Homestead: 0 DAO: <nil> DAOSupport: true EIP150: 0 EIP155: 10 EIP158: 10 Byzantium: 1700000 Constantinople: 4230000 Petersburg: 4939394 Istanbul: 6485846 Engine: ethash}"
+INFO [01-02|14:39:29.373] Disk storage enabled for ethash caches   dir=/home/xx/.ethereum/testnet/geth/ethash count=3
+INFO [01-02|14:39:29.373] Disk storage enabled for ethash DAGs     dir=/home/xx/.ethash                       count=2
+INFO [01-02|14:39:29.376] Initialising Ethereum protocol           versions="[64 63]" network=3 dbversion=7
+WARN [01-02|14:39:29.380] Head state missing, repairing chain      number=7065625 hash=faba96…ea632e
+INFO [01-02|14:39:29.424] Deep froze chain segment                 blocks=2 elapsed=173.671ms number=6975624 hash=6fa1cd…0e7ac5
+INFO [01-02|14:39:40.500] Rewound blockchain to past state         number=7065220 hash=85e50c…5570f8
+INFO [01-02|14:39:40.502] Loaded most recent local header          number=7065625 hash=faba96…ea632e td=29665865415674960 age=6m40s
+INFO [01-02|14:39:40.502] Loaded most recent local full block      number=7065220 hash=85e50c…5570f8 td=29665674611160482 age=2h54m1s
+INFO [01-02|14:39:40.502] Loaded most recent local fast block      number=7065625 hash=faba96…ea632e td=29665865415674960 age=6m40s
+INFO [01-02|14:39:40.537] Setting new local account                address=0x58Ba6ADe1a167bfc1ABbA98BcaF685A43dee3Ed4
+INFO [01-02|14:39:40.537] Loaded local transaction journal         transactions=2 dropped=0
+INFO [01-02|14:39:40.537] Regenerated local transaction journal    transactions=2 accounts=1
+WARN [01-02|14:39:40.537] Switch sync mode from fast sync to full sync 
+INFO [01-02|14:39:40.655] New local node record                    seq=65 id=bbd873a056504d21 ip=127.0.0.1 udp=30303 tcp=30303
+INFO [01-02|14:39:40.657] IPC endpoint opened                      url=/home/xx/.ethereum/testnet/geth.ipc
+INFO [01-02|14:39:40.657] HTTP endpoint opened                     url=http://127.0.0.1:8545               cors= vhosts=localhost
+INFO [01-02|14:39:40.678] Started P2P networking                   self=enode://166ead9db79492c7fd77bc111674ee558a4f896c123883a69a1d421971354074d035a02e5623c6d8bee2599d81ab482680fdd0d0dd7cc055406aa23902327b9c@127.0.0.1:30303
+INFO [01-02|14:39:40.680] WebSocket endpoint opened                url=ws://127.0.0.1:8546
+INFO [01-02|14:39:40.830] Etherbase automatically configured       address=0x58Ba6ADe1a167bfc1ABbA98BcaF685A43dee3Ed4
+INFO [01-02|14:42:03.597] WebSocket endpoint closed                url=ws://127.0.0.1:8546
+INFO [01-02|14:42:03.597] HTTP endpoint closed                     url=http://127.0.0.1:8545
+INFO [01-02|14:42:03.597] IPC endpoint closed                      url=/home/xx/.ethereum/testnet/geth.ipc
+INFO [01-02|14:42:03.597] Writing cached state to disk             block=7065220 hash=85e50c…5570f8 root=a07363…88a955
+INFO [01-02|14:42:03.597] Persisted trie from memory database      nodes=0   size=0.00B    time=4.558µs   gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [01-02|14:42:03.597] Writing cached state to disk             block=7065219 hash=e5b7f5…a9e348 root=3f5d76…771820
+INFO [01-02|14:42:03.598] Persisted trie from memory database      nodes=0   size=0.00B    time=1.621µs   gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [01-02|14:42:03.598] Writing cached state to disk             block=7065093 hash=e9513e…71de43 root=55771b…65abe4
+INFO [01-02|14:42:03.598] Persisted trie from memory database      nodes=0   size=0.00B    time=1.977µs   gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [01-02|14:42:03.598] Blockchain manager stopped 
+INFO [01-02|14:42:03.598] Stopping Ethereum protocol 
+INFO [01-02|14:42:04.572] Ethereum protocol stopped 
+INFO [01-02|14:42:04.572] Transaction pool stopped 

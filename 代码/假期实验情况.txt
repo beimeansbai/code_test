@@ -1,0 +1,40 @@
+vmtest文件夹中的file_id.c文件
+已经能够成功运行
+功能也正常
+但是git filter出现问题无法测试
+
+xuxin527的github账号由于收不到验证邮件 暂时无法使用
+新账号：beimeansbai   Iamxuxin2020     zoubeida@163.com
+
+
+
+Hash(repo name+first push time+author name+nonce)
+获取最初的commit:
+git log --revert
+
+
+能运行filter了，原因在于main函数要是void，不能是int的。
+
+
+编译Git:
+sudo make prefix=/usr/local all
+sudo make prefix=/usr/local install
+https://blog.csdn.net/zonghengxueba/article/details/88552959
+
+abekeygen.c中 少了一句alist = 0；
+回去记得加上，包括abs
+
+
+
+编制安装GIT之后不会再报错
+设置新的filter:
+git config  filter.<driver>.process "path"
+然后打开configure，在filter的下面加上required.
+
+
+example.pl中有一处错误，没用判断delay功能，在代码中已经加上
+
+
+perl加解密文件夹中是测试的代码，只支持加解密，文件路径读取但没有进行其他使用，且测试过66M的文件，没有问题。
+虚拟机中已经修改了一部分enc_sig和verify_dec，但是没有改完，在正式调试时abeenc和abedec应该不需要改。
+
